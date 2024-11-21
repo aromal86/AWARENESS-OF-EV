@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    color: rgb(106, 137, 60);
+}
+#main{
+background-image: url(electric-vehicle-84efvu4elntj1hr7.jpg);
+min-height: 100vh;
+background-position: bottom center;
+background-size: cover;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navlist{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.navlist a {
+   color: white;
+}
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    color: white;
+}
+.maincontent .h1 {
+    font-size: 50px;
+}
+.maincontent .h2 {
+    font-size: 90px;
+    margin-top: -20px;
+}
+.maincontent p{
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+.button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px;
+    background: rgb(0, 167, 0);
+    color:white;
+    font-weight: bold;
+    font-size: larger;
+}
+.secline {
+font-size: 50px;
+text-align: center;
+}
+.secline .line{
+width: 150px;
+height: 4px;
+border: 10px;
+background: yellow;
+margin: auto;
+}
+.services{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.service{
+    width: 350px;
+}
+.service img{
+    max-width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.service img:hover {
+    transform: scale(1.1);
+}
+.heading{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #2e4527;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
